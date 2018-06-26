@@ -28,7 +28,7 @@ public class TestTelegramMessage {
         
         String SendString = "https://api.telegram.org/bot526308619:AAHg--iymGkDr4fPiGtsgqzEztMA4_Oq0gQ/sendMessage?chat_id=-1001338127855&text=";
  
-        String time = Calendar.getInstance(TimeZone.getTimeZone("GMT+3")).toString();
+        String time = Calendar.getInstance(TimeZone.getTimeZone("GMT+3")).getTime().toString();
 
         URLConnection conn = null;
         BufferedReader br = null;
